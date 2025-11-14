@@ -14,5 +14,9 @@
     },
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
+  },
+  "variables": {
+    "PIP_ONLY_BINARY": ":all:",
+    "PIP_NO_BUILD_ISOLATION": "false"
   }
 }
