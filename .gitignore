@@ -1,0 +1,24 @@
+# === File Rahasia & Konfigurasi ===
+# Mengandung Kunci API dan Password. SANGAT PENTING JANGAN DI-PUSH!
+.env.local
+.env
+/backend/.env
+
+# === Folder Dependencies ===
+# Dibuat otomatis, ukurannya sangat besar
+/node_modules
+/backend/venv
+
+# === Build Output & Cache ===
+# Dibuat otomatis oleh Next.js
+/.next/
+/out/
+
+# Dibuat otomatis oleh Python
+/backend/__pycache__/
+*.pyc
+
+# === OS Files ===
+# File-file sampah dari sistem operasi
+.DS_Store
+Thumbs.db
