@@ -3,6 +3,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.v1 import scan, profile, recommend
+import numpy
+print("NumPy version:", numpy.__version__)
 
 app = FastAPI(
     title="LokaFit API",
