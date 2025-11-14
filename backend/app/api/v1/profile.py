@@ -10,6 +10,7 @@ from typing import Optional
 router = APIRouter()
 
 
+
 @router.post("/skin-tone")
 async def analyze_skin_tone(file: UploadFile = File(...)):
     """
